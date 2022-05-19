@@ -11,8 +11,6 @@ app.use(express.json());
 
 // pass: tkp1P9rdXcIoduDA
 
-// const collection = client.db("TODOAPP").collection("task");
-
 //Mongo
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://admin1:tkp1P9rdXcIoduDA@todo.ruzbe.mongodb.net/?retryWrites=true&w=majority";
